@@ -81,9 +81,6 @@ body{
 /************************** Header **************************/
 
 @media only screen and (max-width: 600px){
-  .shagu{
-    margin-left: 0 !important;
-  }
   .header{
     text-align: center;
   }
