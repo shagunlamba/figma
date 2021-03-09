@@ -1,0 +1,553 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+/************************** Navbar **************************/
+
+.navbar{
+  padding: 10px 0 15px 0;
+  margin-bottom: 2%;
+}
+.navbar img{
+  width: 220px;
+  height: 35.47px;
+  margin-left: 11%;
+  margin-top: 2%;
+}
+
+.navbar-item{
+  font-size: 18px;
+  line-height: 18px;
+  display:inline-block; 
+  padding-top: 30px; 
+  color: #074369; 
+  cursor: pointer;
+}
+
+.navbar-item--active{
+  font-size: 18px;
+  line-height: 18px;
+  display: inline-block;
+  margin-top: 25px;
+  color: #074369;
+  cursor: pointer;
+  border: 2px solid #074369;
+  padding: 3% 14%; 
+  border-radius: 4px;
+}
+
+.navbar-list{
+  font-size: 16px;
+  line-height: 19px;
+  color: #062D45;
+  padding: 5%;
+  cursor: pointer;
+}
+.navbar-list li{
+  padding: 2% 0;
+}
+.ant-drawer-body{
+  padding: 0 !important;
+  height: 50vh !important;
+  width: 50vw !important;
+}
+.ant-drawer-body li{
+  display: block;
+}
+@media only screen and (max-width: 992px){
+  .listItem{
+    display: none;
+  }
+  .navbar-btn{
+    display: inline !important;
+    background-color: white; 
+    border:0; 
+    padding: 0 0.5rem; 
+    position: absolute; 
+    top: 28px;
+    right: -1.25rem;
+    cursor: pointer; 
+    outline: none;
+  }
+}
+@media only screen and (min-width: 992px){
+  .navbar-btn{
+    display: none !important;
+  }
+}
+/************************** Navbar End **************************/
+
+
+/************************** Header **************************/
+
+@media only screen and (max-width: 600px){
+  .shagu{
+    margin-left: 0 !important;
+  }
+  .header{
+    text-align: center;
+  }
+}
+
+.header{
+  padding: 6% 0;
+  padding-bottom: 0;
+  font-style: normal;
+  margin: 2% 7% 17%;
+}
+
+.header-content{
+  margin: 1.25rem;
+  margin-right: 12%;
+}
+
+.header-heading{
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 3.0625rem;
+  color: #074369;
+  margin-bottom: 10%;
+}
+.header-para{
+  font-weight: normal;
+  font-size: 1.5rem;
+  line-height: 2.125rem;
+  color: #666666;
+  margin-top: 7%;
+  margin-bottom: 5%;
+}
+.header-image {
+  height: 401px !important; 
+  width: 520px !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .header{
+    text-align: center;
+  }
+  #header-desktop--view{
+    display: none;
+  }
+  .btn{
+    width: 50%;
+  }
+  .header-image {
+    height:159px !important; 
+    width:257px !important;
+  }
+  .header-heading{
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .header-para{
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+@media only screen and (min-width: 600px) {
+  #header-mobile--view{
+    display: none;
+    }
+}
+
+
+
+/************************** Header End **************************/
+
+/************************** Features **************************/
+.features-heading{
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 49px;
+  color: #074369;
+  text-align: center;
+  margin-top: 5%;
+}
+.features-para{
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 34px;
+  text-align: center;
+  color: #666666;
+  padding: 0 27%;
+}
+@media only screen and (max-width: 600px) {
+  .features-heading, .features-para{
+    text-align: left;
+    padding: 0;
+    padding-left: 10%; 
+  }
+  .features-col{
+    padding: 5%;
+  }
+  .features-heading{
+    color: #062D45;
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .features-para{
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .features-content{
+    padding-right: 5%;
+  }
+}
+.feature-img{
+  height: 30px;
+  width: 30px;
+  margin-bottom: 4%;
+}
+.feature-block--heading{
+  font-size: 24px;
+  line-height: 26px;
+  margin-bottom: 0;
+  border-bottom: 1px solid #9F9F9F;
+  color: #2E2E2E !important;
+  display: inline-block;
+  padding-bottom: 3%;
+}
+.feature-block--para{
+  margin-top: 10%;
+  font-size: 16px;
+  line-height: 26px;
+  color: #2E2E2E !important;
+}
+.features-col{
+  padding: 2% 5%;
+}
+.container{
+  padding: 2% 5%;
+}
+/************************** Features End **************************/
+
+/************************** IT section **************************/
+.it{
+  padding: 6% 0;
+  padding-bottom: 0;
+  font-style: normal;
+  margin: 8% 7%;
+}
+
+.it-content{
+  margin: 2.25rem;
+  margin-right: 12%;
+}
+
+.it-heading{
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 3.0625rem;
+  color: #074369;
+  margin-bottom: 10%;
+}
+.it-para{
+  font-weight: normal;
+  font-size: 1.5rem;
+  line-height: 2.125rem;
+  color: #666666;
+  margin-top: 7%;
+  margin-bottom: 5%;
+}
+/* .div{
+  padding-left: 25%;
+} */
+.it-image {
+  height: 420px !important; 
+  width: 420px !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .it{
+    text-align: center;
+  }
+  .div{
+    padding-left: 0%;
+  }
+  .it-desktop--view{
+    display: none;
+  }
+  .btn{
+    width: 50%;
+    font-size: 16px !important;
+    line-height: 19px !important;
+  }
+  .it-image {
+    height:270px !important; 
+    width:257px !important;
+  }
+  .it-mobile--view{
+    margin: 6% 0;
+  }
+  .it-heading{
+    font-size: 24px;
+    line-height: 29px;
+    text-align: justify;
+  }
+  .it-para{
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .it-mobile--view{
+    display: none;
+  }
+}
+/************************** IT End **************************/
+
+/************************** ReasonSection **************************/
+.reason-section{
+  background-color: #074369;
+}
+
+.reason-section-content{
+  padding: 3% 5% 5% 0;
+  color: #FFFFFF;
+  font-family: Proxima Nova;
+}
+.reason-section-heading{
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 3.0625rem;
+  letter-spacing: 1px;
+  font-family: Proxima Nova;
+  color: #FFFFFF;
+  margin-bottom: 8%;
+}
+.tick-img{
+  height: 5%;
+  width: 5%;
+  margin-top: -1%;
+}
+dl{
+  font-style: normal;
+  font-weight: normal;
+}
+dt{
+  display: inline;
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 1.8125rem;
+  padding-left: 1.8%;
+}
+dd{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  padding: 1% 10% 5% 7%;
+}
+.reason-section-btn{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  text-align: center;
+  color: #FFFFFF;
+  background: #074369;
+  border: 1.6px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 2% 6%;
+}
+@media only screen and (max-width: 600px) {
+  .reason-section-images{
+    height: 100vh;
+
+  }
+  .reason-section-heading{
+    text-align: center;
+    font-size: 24px;
+    line-height: 29px;
+  }
+  dt{
+    font-size: 20px;
+    line-height: 24px;
+  }
+  dd{
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .reason-section-content{
+    padding: 5%;
+  }
+  .head{
+    display: none;
+  }
+}
+/************************** ReasonSection End **************************/
+
+/************************** Review Section **************************/
+.reviews{
+  padding: 8%;
+}
+.reviews-heading{
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 3.0625rem;
+  color: #074369;
+  margin-bottom: 3%;
+}
+.card{
+  box-shadow: 0px 0px 19px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 4%;
+  margin: 4%;
+}
+.card-title{
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  margin-top: 3%;
+}
+.card-subtitle{
+  font-size: 1rem;
+  line-height: 1.625rem;
+}
+.card-company{
+  font-size: 1rem;
+  line-height: 1.625rem;
+  position: absolute;
+  top: 9.8rem;
+}
+.card-text{
+  font-size: 1rem;
+  line-height: 1.625rem;
+  color: #2E2E2E;
+}
+.stars img{
+  padding: 10% 3% 5% 0;
+}
+@media only screen and (max-width: 600px) {
+  .reviews{
+    display: none;
+  }
+}
+/************************** Review section end **************************/
+
+
+
+/************************** Map Section **************************/
+
+.map{
+  padding: 6% 0;
+  padding-bottom: 0;
+  font-style: normal;
+  margin: 0 7%;
+}
+
+.map-content{
+  margin: 1.25rem;
+  margin-right: 12%;
+}
+
+.map-heading{
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 3.0625rem;
+  color: #074369;
+  margin-bottom: 10%;
+}
+.map-para{
+  font-weight: normal;
+  font-size: 1.5rem;
+  line-height: 2.125rem;
+  color: #666666;
+  margin-top: 7%;
+  margin-bottom: 5%;
+}
+.div{
+  padding-left: 25%;
+}
+.map-image {
+  height: 301px !important; 
+  width: 420px !important;
+}
+
+.btn{
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  position: relative;
+  right: 3px;
+  width: 15rem;
+  height: 3.5rem;
+  margin-bottom: 15%;
+  background: #074369;
+  border: 2.6px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 6px;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+@media only screen and (max-width: 600px) {
+  .map{
+    text-align: center;
+  }
+  .div{
+    padding-left: 0%;
+  }
+  #map-desktop--view{
+    display: none;
+  }
+  .btn{
+    width: 50%;
+  }
+  .map-image {
+    height:159px !important; 
+    width:257px !important;
+  }
+  .map-heading{
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .map-para{
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+@media only screen and (min-width: 600px) {
+  #map-mobile--view{
+    display: none;
+    }
+}
+
+/************************** Map section end **************************/
+
+/************************** Footer **************************/
+
+.footer{
+  text-align: center;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.625rem;
+  padding: 5% 0 1% 0;
+}
+.footer-img{
+  width: 14.9375rem;
+  height: 2.4668rem;
+}
+.footer-text{
+  padding-top: 2%;
+  color: #333333;
+}
+.footer-word{
+  color: #074369;
+}
+
+  
+
+/************************** Footer End **************************/
+
+
