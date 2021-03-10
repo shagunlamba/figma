@@ -5,28 +5,28 @@ body {
 /************************** Navbar **************************/
 
 .navbar {
-  padding: 10px 0 15px 0;
+  padding: 0.625px 0 .9375rem 0;
   margin-bottom: 2%;
 }
 .navbar img {
-  width: 220px;
-  height: 35.47px;
+  width: 13.75rem;
+  height: 2.216875rem;
   margin-left: 11%;
   margin-top: 2%;
 }
 
 .navbar-item {
-  font-size: 18px;
-  line-height: 18px;
+  font-size: 1.125rem;
+  line-height: 1.125rem;
   display: inline-block;
-  padding-top: 30px;
+  padding-top: 1.875rem;
   color: #074369;
   cursor: pointer;
 }
 
 .navbar-item--active {
-  font-size: 18px;
-  line-height: 18px;
+  font-size: 1.125rem;
+  line-height: 1.125rem;
   display: inline-block;
   margin-top: 25px;
   color: #074369;
@@ -37,8 +37,8 @@ body {
 }
 
 .navbar-list {
-  font-size: 16px;
-  line-height: 19px;
+  font-size: 1rem;
+  line-height: 1.1875rem;
   color: #062d45;
   padding: 5%;
   cursor: pointer;
@@ -61,14 +61,7 @@ body {
   position: absolute;
   top: 30%;
   left: 14%;
-  /* width: 200px; */
 }
-/* .ant-card-body {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-} */
-/* .card-box-shadow {
-  box-shadow: 6px 20px 0 rgba(0, 0, 0, 0.19);
-} */
 @media only screen and (max-width: 992px) {
   .listItem {
     display: none;
@@ -79,7 +72,7 @@ body {
     border: 0;
     padding: 0 0.5rem;
     position: absolute;
-    top: 28px;
+    top: 1.75rem;
     right: -1.25rem;
     cursor: pointer;
     outline: none;
@@ -89,6 +82,22 @@ body {
   .navbar-btn {
     display: none !important;
   }
+}
+@media only screen and (max-width: 600px) {
+.navbar{
+  padding-top: 0 !important;
+}
+.navbar img{
+  width: 12.375rem !important;
+  height: 2.216875rem !important;
+  margin-left: 3% !important;
+  margin-top: 9% !important;
+}
+.navbar-item--active {
+  font-size: .818181rem;
+  line-height: 1rem;
+}
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -127,6 +136,7 @@ body {
   line-height: 3.0625rem;
   color: #074369;
   margin-bottom: 10%;
+  padding-right: 16%
 }
 .header-para {
   font-weight: normal;
@@ -135,10 +145,30 @@ body {
   color: #666666;
   margin-top: 7%;
   margin-bottom: 5%;
+  padding: 2% 2% 2% 0;
 }
 .header-image {
   height: 401px !important;
   width: 520px !important;
+}
+
+.header-btn{
+  font-size: 1rem;
+  line-height: 1.1875rem;
+  position: relative;
+  right: 3px;
+  width: 12.3rem;
+  height: 3.6rem;
+  margin-bottom: 15%;
+  background: #074369;
+  border: 2.6px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
 }
 
 @media only screen and (max-width: 600px) {
@@ -148,20 +178,27 @@ body {
   #header-desktop--view {
     display: none;
   }
+  .header-btn{
+    width: 60% !important;
+    height: 3.0rem !important;
+  }
   .btn {
-    width: 50%;
+    width: 54% !important;
   }
   .header-image {
     height: 100% !important;
     width: 100% !important;
   }
   .header-heading {
-    font-size: 24px;
-    line-height: 29px;
+    font-size: 1.5rem;
+    line-height: 1.8125rem;
+    padding: 0%;
+    margin: 0;
   }
   .header-para {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 22px;
+    padding: 0%;
   }
 }
 @media only screen and (min-width: 600px) {
@@ -174,56 +211,71 @@ body {
 
 /************************** Features **************************/
 .features-heading {
-  font-family: Proxima Nova;
   font-style: normal;
   font-weight: bold;
-  font-size: 40px;
-  line-height: 49px;
+  font-size: 2.5rem;
+  line-height: 3.0625rem;
   color: #074369;
   text-align: center;
   margin-top: 5%;
 }
 .features-para {
-  font-family: Proxima Nova;
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
-  line-height: 34px;
+  font-size: 1.5rem;
+  line-height: 2.125rem;
   text-align: center;
   color: #666666;
-  padding: 0 27%;
+  padding: 0 22%;
+}
+.features-para--mobile{
+  display: none;
 }
 @media only screen and (max-width: 600px) {
   .features-heading,
   .features-para {
     text-align: left;
     padding: 0;
-    padding-left: 10%;
+    padding-left: 4%;
   }
   .features-col {
-    padding: 5%;
+    padding: 2% 0% !important;
   }
   .features-heading {
     color: #062d45;
-    font-size: 24px;
-    line-height: 29px;
+    font-size: 1.5rem;
+    line-height: 1.8125rem;
+    padding-top: 15%;
   }
   .features-para {
-    font-size: 16px;
-    line-height: 22px;
+    font-size: .875rem;
+    line-height: 1.375rem;
+    padding-right: 6%;
   }
   .features-content {
     padding-right: 5%;
   }
+  .feature-block--heading{
+    font-size: 1.25rem !important;
+    line-height: 1.5rem !important;
+  }
+  .features-para--mobile{
+    display: block;
+  }
+  .features-para--desktop{
+    display: none;
+  }
 }
 .feature-img {
-  height: 30px;
-  width: 30px;
+  height: 1.875rem;
+  width: 1.875rem;
   margin-bottom: 4%;
 }
 .feature-block--heading {
-  font-size: 24px;
-  line-height: 26px;
+  font-size: 1.5rem;
+  line-height: 1.625rem;
+  font-style: normal;
+  font-weight: normal;
   margin-bottom: 0;
   border-bottom: 1px solid #9f9f9f;
   color: #2e2e2e !important;
@@ -232,9 +284,10 @@ body {
 }
 .feature-block--para {
   margin-top: 10%;
-  font-size: 16px;
-  line-height: 26px;
+  font-size: 1rem;
+  line-height: 1.5rem;
   color: #2e2e2e !important;
+  padding-right: 6%;
 }
 .features-col {
   padding: 2% 5%;
@@ -263,6 +316,7 @@ body {
   line-height: 3.0625rem;
   color: #074369;
   margin-bottom: 10%;
+  padding-right: 14%;
 }
 .it-para {
   font-weight: normal;
@@ -271,12 +325,13 @@ body {
   color: #666666;
   margin-top: 7%;
   margin-bottom: 5%;
+  padding: 2% 7% 2% 0;
 }
 /* .div{
   padding-left: 25%;
 } */
 .it-image {
-  height: 420px !important;
+  height: 439px !important;
   width: 420px !important;
 }
 
@@ -291,25 +346,30 @@ body {
     display: none;
   }
   .btn {
-    width: 50%;
-    font-size: 16px !important;
-    line-height: 19px !important;
+    font-size: 1rem !important;
+    line-height: 1.1875rem !important;
   }
   .it-image {
     height: 270px !important;
     width: 257px !important;
   }
   .it-mobile--view {
-    margin: 6% 0;
+    margin: 10% 0;
+    width: 70% !important;
   }
   .it-heading {
-    font-size: 24px;
-    line-height: 29px;
-    text-align: justify;
-  }
+    font-weight: bold;
+    font-size: 1.375rem !important;
+    line-height: 1.8125rem !important;
+    color: #074369;
+    margin-bottom: 10%;
+    padding-right: 0%;
+    }
+  
   .it-para {
-    font-size: 16px;
-    line-height: 26px;
+    font-size: .875rem;
+    line-height: 1.5rem;
+    text-align: center;
   }
 }
 @media only screen and (min-width: 600px) {
@@ -327,19 +387,20 @@ body {
 .reason-section-content {
   padding: 3% 5% 5% 0;
   color: #ffffff;
-  font-family: Proxima Nova;
 }
 .reason-section-heading {
-  font-family: Proxima Nova;
   font-style: normal;
   font-weight: bold;
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   line-height: 3.0625rem;
   letter-spacing: 1px;
-  font-family: Proxima Nova;
   color: #ffffff;
   margin-bottom: 8%;
 }
+.reason-section-heading--mobile-view{
+  display: none;
+}
+
 .tick-img {
   height: 5%;
   width: 5%;
@@ -352,14 +413,15 @@ dl {
 dt {
   display: inline;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   line-height: 1.8125rem;
   padding-left: 1.8%;
 }
 dd {
   font-size: 1.25rem;
   line-height: 1.75rem;
-  padding: 1% 10% 5% 7%;
+  /* padding: 1% 10% 5% 7%; */
+  padding: 1% 5% 5% 7%;
 }
 .reason-section-btn {
   font-style: normal;
@@ -369,11 +431,14 @@ dd {
   text-align: center;
   color: #ffffff;
   background: #074369;
-  border: 1.6px solid #ffffff;
+  border: 2.8px solid #ffffff;
   box-sizing: border-box;
   border-radius: 3px;
   cursor: pointer;
   padding: 2% 6%;
+}
+.reason-section-btn--mobile{
+  display: none;   
 }
 @media only screen and (max-width: 600px) {
   .reason-section-images {
@@ -381,21 +446,53 @@ dd {
   }
   .reason-section-heading {
     text-align: center;
-    font-size: 24px;
-    line-height: 29px;
+    font-size: 1.5rem;
+    line-height: 1.8125rem;
   }
   dt {
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    padding-left: 4%;
   }
   dd {
-    font-size: 20px;
-    line-height: 28px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    padding-left: 13%;
+  }
+  .reason-block{
+    margin: 5% 0;
   }
   .reason-section-content {
     padding: 5%;
   }
   .head {
+    display: none;
+  }
+  .tick-img {
+    height: 1.75rem;
+    width: 1.75rem;
+    margin-top: -1%;
+  }
+  .reason-section-heading--mobile-view{
+    display: block;
+    padding-top: 20%;
+    margin-bottom: -17%;
+  }
+  .reason-section-heading--desktop-view{
+    display: none;
+  }
+  .reason-section-btn--mobile{
+   display: block;
+   font-size: 1rem;
+   line-height: 1.8125rem;
+   margin: auto;
+   border: 2px solid #ffffff;
+   width: 60%;
+   margin-bottom: 15%;
+  }
+  .reason-section-btn--desktop{
     display: none;
   }
   @media only screen and (max-width: 600px) {
@@ -518,9 +615,30 @@ dd {
   color: #ffffff;
 }
 
+.map-btn--mobile{
+    font-size: 1rem;
+    line-height: 1.1875rem;
+    position: relative;
+    right: 3px;
+    width: 15rem;
+    height: 3.5rem;
+    margin-bottom: 15%;
+    background: #074369;
+    border: 2.6px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 6px;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+}
+
 @media only screen and (max-width: 600px) {
   .map {
     text-align: center;
+    margin-top: 11%; 
+    margin-bottom: 11%; 
   }
   .div {
     padding-left: 0%;
@@ -528,20 +646,21 @@ dd {
   #map-desktop--view {
     display: none;
   }
-  .btn {
-    width: 50%;
-  }
   .map-image {
     height: 159px !important;
     width: 257px !important;
   }
   .map-heading {
-    font-size: 24px;
-    line-height: 29px;
+    font-size: 1.375rem;
+    line-height: 1.8125rem;
+    margin-top: 13%;
   }
   .map-para {
-    font-size: 16px;
-    line-height: 26px;
+    font-size: 1rem;
+    line-height: 1.625rem;
+  }
+  .map-btn--mobile{
+    width: 60% !important;
   }
 }
 @media only screen and (min-width: 600px) {

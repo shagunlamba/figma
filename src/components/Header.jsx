@@ -13,7 +13,7 @@ function Header() {
             <p className="header-para">
               Find your next contract job with convenience. Search based on your skills, rate per hr or your preferred location.
 				</p>
-            <button className="header-button btn">Get started</button>
+            <button className="header-btn">Get started</button>
           </div>
         </Col>
         <Col xs={24} sm={12} md={12} lg={12} xl={12}>
@@ -23,7 +23,7 @@ function Header() {
               <p>Card content</p>
               <p>Card content</p>
             </Card> */}
-            <img className="card-body" src='./img/Frame 663.png'></img>
+            <img className="card-body" src='./img/Frame 663.png' alt="frame"/>
             <img src="./img/man.png" alt="man img" className="header-image" />
           </div>
         </Col>

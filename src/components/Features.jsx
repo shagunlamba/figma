@@ -4,7 +4,7 @@ import {Row, Col} from "antd";
 const itemArr = [
     {
         title: "Optimized job Search",
-        content: "We let you search contract only jobs based on your skills, location and desired rate per hour Verified recruiters",
+        content: "We let you search contract only jobs based on your skills, location and desired rate per hour Verified recruiters.",
         img: "./img/G1.png"
     },
     {
@@ -50,9 +50,12 @@ function Features(){
         <div className="features">
                 <div className="features-content">
                     <h1 className="features-heading">Get notified for the right opportunity</h1>
-                    <p className="features-para">
+                    <p className="features-para features-para--desktop">
                         Our job board is dedicated to contractor hiring by active recruiters. 
                         Get hired for the right skills and at the right rate!
+                    </p>
+                    <p className="features-para features-para--mobile">
+                        Every applicant to the Toptal network is rigorously tested and vetted. Our highly selective process leads to a 98% trial-to-hire success rate.
                     </p>
                 </div>
                 <Row className="container">

@@ -25,10 +25,10 @@ function Map(){
 			</Col>
 			<Col xs={24} sm={12} md={12} lg={12} xl={12} id="map-mobile--view">
 				<p className="map-para">
-					Search jobs based on your skills and location. <br />
+					Search jobs based on your skills and location.
 					Let recruiters know if you are willing to travel or open for relocation	
 				</p>
-				<button  className="btn">Hire an IT Contractor</button>
+				<button  className="map-btn--mobile">Hire an IT Contractor</button>
 			</Col>
 		</Row>
 	</div>
