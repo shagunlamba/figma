@@ -1,8 +1,7 @@
 import React from 'react';
-import {Row, Col, Avatar} from "antd";
+import { Row, Col, Avatar } from "antd";
 
-
-const reasonArr =[
+const reasonArr = [
     {
         title: "More $$$",
         content: "Get higher pay rate and hone your desired skills. Register to see how much your skills are worth. Our IT Contractors make an average of 30-50% more when switching from their full time jobs "
@@ -18,10 +17,10 @@ const reasonArr =[
 ];
 
 
-function createReason(reasonItem){
+function createReason(reasonItem) {
     return (
         <section>
-        <img src="./img/tick-circle.png" alt="tick" className="tick-img" />
+            <img src="./img/tick-circle.png" alt="tick" className="tick-img" />
             <dt>{reasonItem.title}</dt>
             <dd>{reasonItem.content}</dd>
         </section>
@@ -29,13 +28,16 @@ function createReason(reasonItem){
 }
 
 
-function ReasonSection(){
+function ReasonSection() {
     return (
         <div className="reason-section">
             <Row type="flex">
                 <Col xs={24} sm={12} md={12} lg={12} className="reason-section-images">
 
                     {/* All the avatars */}
+                    <div className="center-image">
+                        <img className="grid-image" src={'./img/Group 662.png'} alt="group-image"></img>
+                    </div>
 
                 </Col>
                 <Col xs={24} sm={12} md={12} lg={12} className="reason-section-content">
@@ -46,7 +48,7 @@ function ReasonSection(){
                         {reasonArr.map(createReason)}
                     </dl>
                     <div>
-                    <button className="reason-section-btn">Get started now</button>
+                        <button className="reason-section-btn">Get started now</button>
                     </div>
                 </Col>
 
