@@ -5,7 +5,7 @@ function Header() {
   return (
     <header className="header">
       <Row type="flex" >
-        <Col xs={24} sm={12} md={12} lg={12} xl={12} >
+        <Col xs={24} sm={24} md={12} lg={12} xl={12} >
           <span className="header-heading">
             Job board for IT Contractors
 				</span>
@@ -16,7 +16,7 @@ function Header() {
             <button className="header-btn">Get started</button>
           </div>
         </Col>
-        <Col xs={24} sm={12} md={12} lg={12} xl={12}>
+        <Col xs={24} sm={24} md={12} lg={12} xl={12}>
           <div id="#header" className="div">
             {/* <Card style={{ width: 300 }}>
               <p>Card content</p>

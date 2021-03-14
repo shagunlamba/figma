@@ -32,7 +32,7 @@ function ReasonSection() {
     return (
         <div className="reason-section">
             <Row type="flex">
-                <Col xs={24} sm={12} md={12} lg={12} className="reason-section-images">
+                <Col xs={24} sm={24} md={12} lg={12} className="reason-section-images">
                 <h3 className="reason-section-heading reason-section-heading--mobile-view">
                         Our top 3 reasons to switch to IT Contracting
                     </h3>
@@ -42,7 +42,7 @@ function ReasonSection() {
                     </div>
 
                 </Col>
-                <Col xs={24} sm={12} md={12} lg={12} className="reason-section-content">
+                <Col xs={24} sm={24} md={12} lg={12} className="reason-section-content">
                     <h3 className="reason-section-heading reason-section-heading--desktop-view">
                         Our top 3 reasons to switch to IT Contracting
                     </h3>

@@ -7,7 +7,7 @@ function ITC1(){
 	return (
 	<div className="it" >
 		<Row type="flex" >
-			<Col xs={24} sm={12} md={12} lg={12} xl={12}>
+			<Col xs={24} sm={24} md={12} lg={12} xl={12}>
 				<span className="it-heading">
                     Finding IT contractors for your company just got easier
 				</span>
@@ -19,7 +19,7 @@ function ITC1(){
                     <button  className="it-button btn it-desktop--view">Hire an IT Contractor</button>
                 </div>
             </Col>
-                <Col xs={24} sm={12} md={12} lg={12} xl={12}>
+                <Col xs={24} sm={24} md={12} lg={12} xl={12}>
 				<div className="div">
 					<img src="./img/woman-img.png"  alt="woman img" className="it-image"/>
 				</div>
