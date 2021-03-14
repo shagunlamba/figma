@@ -150,7 +150,7 @@ body {
   padding: 2% 2% 2% 0;
 }
 .header-image {
-  width: 100% !important;
+  width: 90% !important;
   height: auto !important;
 }
 
@@ -343,12 +343,12 @@ body {
 
 @media only screen and (max-width: 1320px) {
   .div{
-    /* padding-left: 0% !important; */
+    padding-left: 0% !important;
     text-align: center !important;
   }
  
   .div-woman{
-    padding-left: 2% !important;
+    padding-left: 5% !important;
     margin: auto;
   }
   .card-body{
