@@ -20,7 +20,7 @@ function ITC1(){
                 </div>
             </Col>
                 <Col xs={24} sm={24} md={12} lg={12} xl={12}>
-				<div className="div">
+				<div className="div-woman">
 					<img src="./img/woman-img.png"  alt="woman img" className="it-image"/>
 				</div>
 			    </Col>

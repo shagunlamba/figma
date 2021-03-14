@@ -19,7 +19,7 @@ function Map(){
 				</div>
 			</Col>
 			<Col xs={24} sm={24} md={12} lg={12} xl={12}>
-				<div className="div">
+				<div className="div-woman">
 					<img src="./img/map.png"  alt="world-map img" className="map-image"/>
 				</div>
 			</Col>

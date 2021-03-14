@@ -118,6 +118,7 @@ body {
   }
 }
 
+
 .header {
   padding: 6% 0;
   padding-bottom: 0;
@@ -187,8 +188,6 @@ body {
     width: 54% !important;
   }
   .header-image {
-    height: 100% !important;
-    width: 90% !important;
   }
   .header-heading {
     font-size: 1.5rem;
@@ -328,18 +327,29 @@ body {
   margin-bottom: 5%;
   padding: 2% 2% 2% 0;
 }
+@media only screen and (max-width: 752px){
+  .it-image {
+    width: 60% !important;
+    height: auto !important;
+  }
+}
 /* .div{
   padding-left: 25%;
 } */
-/* .it-image {
-    width: 100% !important;
-    height: auto !important;
-} */
+.it-image {
+    width: 80%;
+    height: auto;
+}
 
 @media only screen and (max-width: 1320px) {
   .div{
-    padding-left: 0% !important;
+    /* padding-left: 0% !important; */
     text-align: center !important;
+  }
+ 
+  .div-woman{
+    padding-left: 2% !important;
+    margin: auto;
   }
   .card-body{
     position: absolute;
@@ -354,10 +364,19 @@ body {
   }
 }
 
+.div-woman{
+  padding-left: 25%;
+}
 
 @media only screen and (max-width: 600px) {
   .it {
     text-align: center;
+  }
+ 
+  .div-woman{
+    padding: 0 !important;
+    text-align: center !important;
+    margin: auto !important;
   }
   .div {
     padding-left: 1%;
@@ -582,6 +601,7 @@ dd {
   }
 }
 
+
 /************************** Review section end **************************/
 
 /************************** Map Section **************************/
@@ -617,8 +637,8 @@ dd {
   padding-left: 25%;
 }
 .map-image {
-  height: 301px !important;
-  width: 420px !important;
+  height: auto!important;
+  width: 100% !important;
 }
 
 .btn {
